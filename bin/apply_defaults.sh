@@ -477,6 +477,16 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 # cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 ###############################################################################
+# Xcode                                                                       #
+###############################################################################
+
+# Show build time
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+
+# Build with dual core CPU
+defaults write com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks 2
+
+###############################################################################
 # Done                                                                        #
 ###############################################################################
 echo "$0 Applied defaults. Please restart your clean mac."

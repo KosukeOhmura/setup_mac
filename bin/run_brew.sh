@@ -60,7 +60,9 @@ then
     kindle
     libreoffice
     night-owl
+    pg-commander
     skype
+    sourcetree
     sublime-text
     simple-comic
     vagrant
