@@ -461,10 +461,6 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # Google Chrome & Google Chrome Canary                                        #
 ###############################################################################
 
-# Disable the all too sensitive backswipe on trackpads
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
-defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
-
 # Use the system-native print preview dialog
 defaults write com.google.Chrome DisablePrintPreview -bool true
 defaults write com.google.Chrome.canary DisablePrintPreview -bool true
@@ -483,4 +479,4 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 ###############################################################################
 # Done                                                                        #
 ###############################################################################
-echo "Applied defaults. Please restart your clean mac."
+echo "$0 Applied defaults. Please restart your clean mac."

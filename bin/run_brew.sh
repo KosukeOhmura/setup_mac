@@ -1,69 +1,79 @@
 #!/bin/bash
 
-BREW_TAPS=(
-  homebrew/bundle
-  homebrew/services
-)
+if type brew > /dev/null 2>&1
+then
 
-for tap in "${BREW_TAPS[@]}"
-do
-  brew tap $tap
-done
+  BREW_TAPS=(
+    homebrew/bundle
+    homebrew/services
+  )
 
-BREW_REPOS=(
-  ansible
-  autoconf
-  curl
-  hub
-  libtiff
-  openssl
-  tig
-  carthage
-  imagemagick
-  libtool
-  pkg-config
-  # tmux
-  cloc
-  jpeg
-  libyaml
-  postgresql
-  tree
-  libdvdcss
-  # mackup
-  mas
-  rbenv
-  xz
-  freetype
-  libevent
-  readline
-  youtube-dl
-  z
-)
+  for tap in "${BREW_TAPS[@]}"
+  do
+    brew tap $tap
+  done
 
-for repo in "${BREW_REPOS[@]}"
-do
-  brew install $repo
-done
+  BREW_REPOS=(
+    ansible
+    autoconf
+    curl
+    hub
+    libtiff
+    openssl
+    git
+    tig
+    carthage
+    imagemagick
+    libtool
+    pkg-config
+    cloc
+    jpeg
+    libyaml
+    postgresql
+    tree
+    libdvdcss
+    mas
+    rbenv
+    ruby-build
+    xz
+    freetype
+    libevent
+    readline
+    youtube-dl
+    z
+  )
 
-BREW_CASK_REPOS=(
-  alfred2
-  avast
-  cmd-eikana
-  google-chrome
-  handbrake
-  iterm2
-  libreoffice
-  night-owl
-  skype
-  sublime-text
-  simple-comic
-  vagrant
-  vagrant-manager
-  virtualbox
-  vlc
-)
+  for repo in "${BREW_REPOS[@]}"
+  do
+    brew install $repo
+  done
 
-for cask_repo in "${BREW_CASK_REPOS[@]}"
-do
-  brew cask install $cask_repo
-done
+  BREW_CASK_REPOS=(
+    alfred
+    avast
+    caffeine
+    cmd-eikana
+    google-chrome
+    google-japanese-ime
+    handbrake
+    iterm2
+    kindle
+    libreoffice
+    night-owl
+    skype
+    sublime-text
+    simple-comic
+    vagrant
+    vagrant-manager
+    virtualbox
+    vlc
+  )
+
+  for cask_repo in "${BREW_CASK_REPOS[@]}"
+  do
+    brew cask install $cask_repo
+  done
+
+else
+  echo "$0 Error: brew not found"
+fi

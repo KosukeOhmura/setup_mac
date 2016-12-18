@@ -3,12 +3,8 @@
 APP_ID_ARRAY=(
   # NightOwl
   428834068
-  # Kindle
-  405399194
   # BetterSnapTool
   417375580
-  # Evernote
-  406056744
   # Pocket
   568494494
   # LINE
@@ -21,7 +17,13 @@ APP_ID_ARRAY=(
   497799835
 )
 
-for app_id in "${APP_ID_ARRAY[@]}"
-do
-  $(dirname $0)/mas_app_install.sh $app_id
-done
+if type mas > /dev/null 2>&1
+then
+  for app_id in "${APP_ID_ARRAY[@]}"
+  do
+    mas install $app_id
+  done
+  mas upgrade
+else
+  echo "$0 Error: mas not found"
+fi
