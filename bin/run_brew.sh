@@ -35,6 +35,7 @@ then
     mas
     rbenv
     ruby-build
+    pyenv
     xz
     freetype
     libevent
