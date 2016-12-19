@@ -60,7 +60,7 @@ then
     kindle
     libreoffice
     night-owl
-    pg-commander
+    postico
     skype
     sourcetree
     sublime-text
