@@ -1,10 +1,14 @@
 #!/bin/bash
 
-DOT_FILES=( .bash_profile .gem )
+DOTFILES_DIR=$(dirname $0)/../dotfiles
+DOT_FILES=(
+  .bash_profile
+  .bashrc
+)
 
 for dotfile in ${DOT_FILES[@]}
 do
-  ln -sfv $HOME/Dropbox/config_backups/dotfiles/$dotfile $HOME/$dotfile
+  ln -sfv $DOTFILES_DIR/dotfiles/$dotfile $HOME/$dotfile
 done
 
-ln -sfv ~/Dropbox/config_backups/alfred\ 2/Alfred.alfredpreferences ~/Library/Application\ Support/Alfred\ 2/Alfred.alfredpreferences
+# todo: alfred, sublimeあたりの設定ファイル
