@@ -6,9 +6,13 @@ DOT_FILES=(
   .bashrc
 )
 
+cd $DOTFILES_DIR
 for dotfile in ${DOT_FILES[@]}
 do
-  ln -sfv $DOTFILES_DIR/dotfiles/$dotfile $HOME/$dotfile
+  ln -sfv $PWD/$dotfile $HOME/$dotfile
+  source $HOME/$dotfile
 done
+cd -
+
 
 # todo: alfred, sublimeあたりの設定ファイル
