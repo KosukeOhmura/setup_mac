@@ -17,6 +17,8 @@ APP_ID_ARRAY=(
   510934532
   # Slack
   803453959
+  # Table Tool
+  1122008420
 )
 
 if type mas > /dev/null 2>&1
