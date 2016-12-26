@@ -1,10 +1,14 @@
 #!/bin/bash
 
 APP_ID_ARRAY=(
-  # NightOwl
+  # Night Owl
   428834068
   # BetterSnapTool
   417375580
+  # AutoKeyboard
+  908553210
+  # Xcode
+  497799835
   # Pocket
   568494494
   # LINE
@@ -13,8 +17,6 @@ APP_ID_ARRAY=(
   510934532
   # Slack
   803453959
-  # Xcode
-  497799835
 )
 
 if type mas > /dev/null 2>&1
