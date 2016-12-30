@@ -66,6 +66,7 @@ then
     sourcetree
     sublime-text
     simple-comic
+    the-unarchiver
     vagrant
     vagrant-manager
     virtualbox
