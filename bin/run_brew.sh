@@ -60,6 +60,7 @@ then
     iterm2
     kindle
     libreoffice
+    macdown
     night-owl
     postico
     skype
