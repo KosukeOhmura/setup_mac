@@ -54,6 +54,7 @@ then
     avast
     caffeine
     cmd-eikana
+    docker
     google-chrome
     google-japanese-ime
     handbrake
