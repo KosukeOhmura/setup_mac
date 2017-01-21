@@ -27,6 +27,7 @@ then
     libtool
     pkg-config
     cloc
+    jmeter
     jpeg
     libyaml
     postgresql
@@ -59,6 +60,7 @@ then
     google-japanese-ime
     handbrake
     iterm2
+    java
     kindle
     libreoffice
     macdown

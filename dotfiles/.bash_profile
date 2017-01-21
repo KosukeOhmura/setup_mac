@@ -9,3 +9,6 @@ eval "$(pyenv init -)"
 
 # .bashrc読み込み
 if [ -f ~/.bashrc ] ; then . ~/.bashrc; fi
+
+# java
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
