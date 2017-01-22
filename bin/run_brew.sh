@@ -28,6 +28,7 @@ then
     libtool
     pkg-config
     cloc
+    homebrew/fuse/ext2fuse
     jmeter
     jpeg
     libyaml
@@ -66,6 +67,7 @@ then
     libreoffice
     macdown
     night-owl
+    osxfuse
     postico
     skype
     sourcetree
