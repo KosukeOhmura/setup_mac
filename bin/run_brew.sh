@@ -17,6 +17,7 @@ then
     ansible
     autoconf
     curl
+    e2fsprogs
     hub
     libtiff
     openssl
