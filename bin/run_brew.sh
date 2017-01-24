@@ -69,6 +69,7 @@ then
     night-owl
     osxfuse
     postico
+    sequel-pro
     skype
     sourcetree
     sublime-text
