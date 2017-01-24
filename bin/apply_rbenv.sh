@@ -1,11 +1,12 @@
 #!/bin/bash
 
-rbenv install 2.3.3
-rbenv global 2.3.3
+rbenv install 2.4.0
+rbenv global 2.4.0
 
 ruby -v
 
 GEMS=(
+  bundler
   cocoapods
   pry
 )
