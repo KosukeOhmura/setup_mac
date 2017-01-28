@@ -1,7 +1,23 @@
 #!/bin/bash
 
-rbenv install 2.4.0
-rbenv global 2.4.0
+rbenv install --list
+
+flag=true;
+while $flag; do
+  echo "choose ruby version to install: "
+  read ruby_ver
+  for version in `rbenv install --list`
+  do
+    if [ $ruby_ver = $version ]; then
+        flag=false;
+        break;
+    fi;
+  done
+done
+
+rbenv install $ruby_ver
+rbenv global $ruby_ver
+rbenv rehash
 
 ruby -v
 
