@@ -58,6 +58,7 @@ then
     caffeine
     cmd-eikana
     docker
+    firefox
     google-chrome
     google-japanese-ime
     handbrake
