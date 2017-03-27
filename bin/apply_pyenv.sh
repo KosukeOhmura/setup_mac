@@ -15,8 +15,8 @@ while $flag; do
   done
 done
 
-pyenv install python_ver
-pyenv global python_ver
+pyenv install $python_ver
+pyenv global $python_ver
 pyenv rehash
 
 python --version
