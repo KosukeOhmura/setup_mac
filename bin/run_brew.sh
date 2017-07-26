@@ -16,33 +16,33 @@ then
   BREW_REPOS=(
     ansible
     autoconf
+    carthage
+    cloc
     curl
     e2fsprogs
-    hub
-    libtiff
-    openssl
+    freetype
     git
-    tig
-    carthage
-    imagemagick
-    libtool
-    pkg-config
-    cloc
     homebrew/fuse/ext2fuse
+    hub
+    imagemagick
     jmeter
     jpeg
-    libyaml
-    postgresql
-    tree
     libdvdcss
-    mas
-    rbenv
-    ruby-build
-    pyenv
-    xz
-    freetype
     libevent
+    libtiff
+    libtool
+    libyaml
+    mas
+    openssl
+    pkg-config
+    postgresql
+    pyenv
+    rbenv
     readline
+    ruby-build
+    tig
+    tree
+    xz
     youtube-dl
     z
   )
@@ -64,6 +64,7 @@ then
     handbrake
     iterm2
     java
+    karabiner-elements
     kindle
     libreoffice
     macdown
