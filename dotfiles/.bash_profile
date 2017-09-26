@@ -7,6 +7,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# goenv
+export PATH="$HOME/.goenv/bin:$PATH"
+eval "$(goenv init -)"
+
 # .bashrc読み込み
 if [ -f ~/.bashrc ] ; then . ~/.bashrc; fi
 

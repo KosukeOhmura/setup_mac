@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Case Conversion",
+		"GitGutter",
+		"Increment Selection",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"SyncedSideBar",
+		"Vue Syntax Highlight"
+	]
+}

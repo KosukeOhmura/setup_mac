@@ -20,8 +20,10 @@ then
     cloc
     curl
     e2fsprogs
+    ffmpeg
     freetype
     git
+    goenv
     homebrew/fuse/ext2fuse
     hub
     imagemagick
@@ -55,6 +57,7 @@ then
   BREW_CASK_REPOS=(
     alfred
     avast
+    bittorrent
     caffeine
     cmd-eikana
     docker
@@ -64,7 +67,6 @@ then
     handbrake
     iterm2
     java
-    karabiner-elements
     kindle
     libreoffice
     macdown
@@ -80,6 +82,7 @@ then
     vagrant
     vagrant-manager
     virtualbox
+    visual-studio-code
     vlc
   )
 

@@ -474,7 +474,7 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 ###############################################################################
 
 # Install Sublime Text settings
-# cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+cp -r $(dirname $0)../settings/sublime_text/* ~/Library/Application\ Support/Sublime\ Text*/Packages/User/
 
 ###############################################################################
 # Xcode                                                                       #
