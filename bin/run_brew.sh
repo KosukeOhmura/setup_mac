@@ -54,9 +54,12 @@ then
     brew install $repo
   done
 
+  # Remove outdated versions from the cellar.
+  brew cleanup
+
   BREW_CASK_REPOS=(
     alfred
-    avast
+    avast-mac-security
     bittorrent
     caffeine
     cmd-eikana

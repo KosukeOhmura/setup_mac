@@ -15,4 +15,4 @@ eval "$(goenv init -)"
 if [ -f ~/.bashrc ] ; then . ~/.bashrc; fi
 
 # java
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=`/usr/libexec/java_home -v 9`

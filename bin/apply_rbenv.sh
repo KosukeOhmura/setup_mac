@@ -27,7 +27,7 @@ GEMS=(
   pry
 )
 
-for gem in "${ GEMS[@] }"
+for gem in "${GEMS[@]}"
 do
   gem install $gem
 done

@@ -15,8 +15,10 @@ while $flag; do
   done
 done
 
-pyenv install python_ver
-pyenv global python_ver
+CFLAGS="-I$(brew --prefix openssl)/include" \
+LDFLAGS="-L$(brew --prefix openssl)/lib" \
+pyenv install $python_ver
+pyenv global $python_ver
 pyenv rehash
 
 python --version
@@ -25,7 +27,7 @@ PIPS=(
   awscli
 )
 
-for pip in "${ PIPS[@] }"
+for pip in "${PIPS[@]}"
 do
   pip install $pip
 done
