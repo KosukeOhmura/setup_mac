@@ -48,6 +48,7 @@ then
     xz
     youtube-dl
     z
+    emacs
   )
 
   for repo in "${BREW_REPOS[@]}"
