@@ -3,8 +3,6 @@
 APP_ID_ARRAY=(
   # Night Owl
   428834068
-  # BetterSnapTool
-  417375580
   # AutoKeyboard
   908553210
   # Xcode
@@ -19,6 +17,8 @@ APP_ID_ARRAY=(
   803453959
   # Table Tool
   1122008420
+  # Magnet
+  441258766
 )
 
 if type mas > /dev/null 2>&1
