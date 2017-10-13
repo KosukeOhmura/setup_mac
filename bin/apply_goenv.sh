@@ -1,3 +1,5 @@
+#!/bin/bash
+
 goenv install -l
 
 flag=true;

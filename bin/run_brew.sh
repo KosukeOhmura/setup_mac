@@ -35,6 +35,7 @@ then
     libtool
     libyaml
     mas
+    nodebrew
     openssl
     pkg-config
     postgresql

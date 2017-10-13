@@ -11,6 +11,9 @@ eval "$(pyenv init -)"
 export PATH="$HOME/.goenv/bin:$PATH"
 eval "$(goenv init -)"
 
+# nodebrew
+export PATH="$PATH:$HOME/.nodebrew/current/bin"
+
 # .bashrc読み込み
 if [ -f ~/.bashrc ] ; then . ~/.bashrc; fi
 
