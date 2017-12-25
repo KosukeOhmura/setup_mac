@@ -6,6 +6,7 @@ then
   BREW_TAPS=(
     homebrew/bundle
     homebrew/services
+    homebrew/versions
   )
 
   for tap in "${BREW_TAPS[@]}"
@@ -29,6 +30,7 @@ then
     imagemagick
     jmeter
     jpeg
+    jq
     libdvdcss
     libevent
     libtiff
@@ -39,6 +41,7 @@ then
     openssl
     pkg-config
     postgresql
+    protobuf
     pyenv
     rbenv
     readline

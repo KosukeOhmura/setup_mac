@@ -19,6 +19,8 @@ APP_ID_ARRAY=(
   1122008420
   # Magnet
   441258766
+  # Be Focused
+  973134470
 )
 
 if type mas > /dev/null 2>&1

@@ -20,3 +20,6 @@ done
 
 nodebrew install-binary $node_ver
 nodebrew use $node_ver
+
+# APIDOC
+npm install apidoc -g
