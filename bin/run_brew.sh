@@ -46,6 +46,7 @@ then
     rbenv
     readline
     ruby-build
+    swiftlint
     tig
     tree
     xz
@@ -76,7 +77,9 @@ then
     java
     kindle
     libreoffice
+    license-plist
     macdown
+    mysqlworkbench
     night-owl
     osxfuse
     postico
@@ -89,6 +92,7 @@ then
     vagrant
     vagrant-manager
     virtualbox
+    virtualbox-extension-pack
     visual-studio-code
     vlc
   )
