@@ -17,6 +17,7 @@ then
   BREW_REPOS=(
     ansible
     autoconf
+    bitrise
     carthage
     cloc
     curl
