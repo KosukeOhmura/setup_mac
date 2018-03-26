@@ -14,3 +14,16 @@ alias docker-clean-ps='docker rm -v $(docker ps -aq -f status=exited)'
 # brew cask
 brew-cask-upgrade(){ for app in $(brew cask list); do local latest="$(brew cask info "${app}" | awk 'NR==1{print $2}')"; local versions=($(ls -1 "/usr/local/Caskroom/${app}/.metadata/")); local current=$(echo ${versions} | awk '{print $NF}'); if [[ "${latest}" = "latest" ]]; then echo "[!] ${app}: ${current} == ${latest}"; [[ "$1" = "-f" ]] && brew cask install "${app}" --force; continue; elif [[ "${current}" = "${latest}" ]]; then continue; fi; echo "[+] ${app}: ${current} -> ${latest}"; brew cask uninstall "${app}" --force; brew cask install "${app}"; done; }
 alias brew-cask-clean-outdated="for c in /usr/local/Caskroom/*; do IFS=\$'\t\n' vl=(\$(ls -t \$c)) && for v in \"\${vl[@]:1}\"; do echo \"\$c/\$v\"; rm -rf \"\$c/\$v\"; done; done"
+
+# direnv
+export EDITOR=code
+eval "$(direnv hook bash)"
+
+# serverless
+# TODO: node のバージョンが変わったら死にそうなので取り除きたい
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /Users/ohmurakosuke/.nodebrew/node/v8.9.4/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /Users/ohmurakosuke/.nodebrew/node/v8.9.4/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /Users/ohmurakosuke/.nodebrew/node/v8.9.4/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /Users/ohmurakosuke/.nodebrew/node/v8.9.4/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash

@@ -21,6 +21,7 @@ then
     carthage
     cloc
     curl
+    direnv
     e2fsprogs
     ffmpeg
     freetype
