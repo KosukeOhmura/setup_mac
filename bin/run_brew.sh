@@ -52,6 +52,7 @@ then
     tig
     tree
     xz
+    yarn
     youtube-dl
     z
   )

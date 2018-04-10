@@ -21,6 +21,9 @@ export PATH=$PATH:$GOPATH/bin
 # nodebrew
 export PATH="$PATH:$HOME/.nodebrew/current/bin"
 
+# yarn
+export PATH="$HOME/.yarn/bin:$PATH"
+
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
