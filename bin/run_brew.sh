@@ -67,11 +67,12 @@ then
 
   BREW_CASK_REPOS=(
     alfred
-    avast-mac-security
+    avast-security
     bittorrent
     caffeine
     cmd-eikana
     docker
+    eclipse-java
     firefox
     google-chrome
     google-japanese-ime

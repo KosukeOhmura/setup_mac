@@ -21,6 +21,8 @@ APP_ID_ARRAY=(
   441258766
   # Be Focused
   973134470
+  # pages
+  409201541
 )
 
 if type mas > /dev/null 2>&1
