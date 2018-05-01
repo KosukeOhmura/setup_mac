@@ -71,6 +71,7 @@ then
     bittorrent
     caffeine
     cmd-eikana
+    datagrip
     docker
     eclipse-java
     firefox
@@ -82,16 +83,16 @@ then
     kindle
     libreoffice
     license-plist
-    macdown
     mysqlworkbench
     night-owl
     osxfuse
     postico
+    rubymine
     sequel-pro
+    simple-comic
     skype
     sourcetree
     sublime-text
-    simple-comic
     the-unarchiver
     vagrant
     vagrant-manager

@@ -1,0 +1,25 @@
+{
+    "extensions.ignoreRecommendations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabSize": 2,
+    "editor.rulers": [80,100],
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+    },
+    "[go]": {
+        "editor.tabSize": 4
+    },
+    "files.associations": {
+        "Dockerfile-db": "dockerfile",
+        "docker-compose": "yaml",
+        "Dockerfile-web": "dockerfile",
+        "Dockerfile-nginx": "dockerfile"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}"
+}

@@ -31,7 +31,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 if [ -f ~/.bashrc ] ; then . ~/.bashrc; fi
 
 # java
-export JAVA_HOME=`/usr/libexec/java_home -v 9`
+export JAVA_HOME=`/usr/libexec/java_home`
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/ohmurakosuke/google-cloud-sdk/path.bash.inc' ]; then source '/Users/ohmurakosuke/google-cloud-sdk/path.bash.inc'; fi

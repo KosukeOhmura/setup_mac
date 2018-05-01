@@ -19,6 +19,27 @@ alias brew-cask-clean-outdated="for c in /usr/local/Caskroom/*; do IFS=\$'\t\n' 
 export EDITOR=code
 eval "$(direnv hook bash)"
 
+# git
+git-setuser-uv(){
+  git config user.name "Kosuke Ohmura"
+  echo "Set user.name as $(git config --get user.name)"
+  git config user.email "ohmura_kosuke@uniquevision.co.jp"
+  echo "Set user.email as $(git config --get user.email)"
+}
+
+git-setuser-me(){
+  git config user.name "Kosuke Ohmura"
+  echo "Set user.name as $(git config --get user.name)"
+  git config user.email "bnpb81@gmail.com"
+  echo "Set user.email as $(git config --get user.email)"
+}
+
+# vscode
+code-backup-exlist(){
+  DIR_FILE=$HOME/Dropbox/development/setup_mac/settings/vscode/extension_list
+  code --list-extensions > $DIR_FILE
+}
+
 # serverless
 # TODO: node のバージョンが変わったら死にそうなので取り除きたい
 # tabtab source for serverless package

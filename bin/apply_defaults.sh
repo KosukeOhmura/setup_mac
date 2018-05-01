@@ -470,13 +470,6 @@ defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
 ###############################################################################
-# Sublime Text                                                                #
-###############################################################################
-
-# Install Sublime Text settings
-cp -r $(dirname $0)../settings/sublime_text/* ~/Library/Application\ Support/Sublime\ Text*/Packages/User/
-
-###############################################################################
 # Xcode                                                                       #
 ###############################################################################
 
@@ -485,6 +478,12 @@ defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
 
 # Build with dual core CPU
 defaults write com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks 2
+
+###############################################################################
+# Git                                                                       #
+###############################################################################
+
+git config --global user.useConfigOnly true
 
 ###############################################################################
 # Done                                                                        #

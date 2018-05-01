@@ -1,12 +1,13 @@
 #!/bin/bash
 
+# dotfiles
+
 DOTFILES_DIR=$(dirname $0)/../dotfiles
 DOT_FILES=(
   .bash_profile
   .bashrc
   .gitignore_global
 )
-
 cd $DOTFILES_DIR
 for dotfile in ${DOT_FILES[@]}
 do
@@ -16,4 +17,18 @@ source .bash_profile .bashrc
 cd -
 
 
-# todo: alfred, sublimeあたりの設定ファイル
+SETTINGS_DIR=$(dirname $0)/../settings
+
+# vscode
+
+cd $SETTINGS_DIR/vscode
+
+rm -rf $HOME/Library/Application\ Support/Code/User
+ln -sfv $PWD/User $HOME/Library/Application\ Support/Code/User
+
+for line in `cat extension_list`
+do
+code --install-extension $line
+done
+
+cd -
