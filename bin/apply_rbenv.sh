@@ -19,15 +19,6 @@ rbenv install $ruby_ver
 rbenv global $ruby_ver
 rbenv rehash
 
-ruby -v
-
-GEMS=(
-  bundler
-  cocoapods
-  pry
-)
-
-for gem in "${GEMS[@]}"
-do
-  gem install $gem
-done
+gem install bundler
+gem install pry
+gem install solargraph # ide tool

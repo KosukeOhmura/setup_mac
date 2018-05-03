@@ -75,6 +75,7 @@ then
     docker
     eclipse-java
     firefox
+    gitkraken
     google-chrome
     google-japanese-ime
     handbrake
@@ -100,6 +101,7 @@ then
     virtualbox-extension-pack
     visual-studio-code
     vlc
+    windscribe
   )
 
   for cask_repo in "${BREW_CASK_REPOS[@]}"
