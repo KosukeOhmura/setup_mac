@@ -1,16 +1,10 @@
 {
-    "extensions.ignoreRecommendations": false,
-    "workbench.startupEditor": "newUntitledFile",
+    "editor.rulers": [80,100],
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    "editor.rulers": [80,100],
-    "files.trimTrailingWhitespace": true,
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false,
-    },
-    "[go]": {
-        "editor.tabSize": 4
-    },
+    "extensions.ignoreRecommendations": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     "files.associations": {
         "Dockerfile-db": "dockerfile",
         "docker-compose": "yaml",
@@ -19,8 +13,23 @@
     },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
+    "files.trimTrailingWhitespace": true,
+    "markdown-pdf.margin.bottom": "2cm",
+    "markdown-pdf.margin.left": "2cm",
+    "markdown-pdf.margin.right": "2cm",
+    "markdown-pdf.margin.top": "4cm",
+    "markdown-pdf.styles": [
+        "~/Library/Application Support/Code/User/markdown-pdf.css"
+    ],
+    "markdown-pdf.highlight": true,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "window.zoomLevel": 0,
-    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}"
+    "workbench.startupEditor": "newUntitledFile",
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.tabSize": 4
+    },
+    "[go]": {
+        "editor.tabSize": 4
+    }
 }
