@@ -19,7 +19,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # nodebrew
-export PATH="$PATH:$HOME/.nodebrew/current/bin"
+export PATH="$HOME/.nodebrew/current/bin:$PATH"
 
 # yarn
 export PATH="$HOME/.yarn/bin:$PATH"
