@@ -19,6 +19,7 @@ rbenv install $ruby_ver
 rbenv global $ruby_ver
 rbenv rehash
 
+gem install cocoapods
 gem install bundler
 gem install pry
 gem install solargraph # ide tool

@@ -66,6 +66,7 @@ then
   brew cleanup
 
   BREW_CASK_REPOS=(
+    adobe-acrobat-reader
     alfred
     avast-security
     bittorrent
@@ -75,7 +76,7 @@ then
     docker
     eclipse-java
     firefox
-    gitkraken
+    fork
     google-chrome
     google-japanese-ime
     handbrake
@@ -84,6 +85,8 @@ then
     kindle
     libreoffice
     license-plist
+    macdown
+    microsoft-office
     mysqlworkbench
     night-owl
     osxfuse
