@@ -42,6 +42,7 @@ then
     nodebrew
     openssl
     pkg-config
+    poppler
     postgresql
     protobuf
     pyenv
