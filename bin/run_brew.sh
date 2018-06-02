@@ -83,6 +83,7 @@ then
     handbrake
     iterm2
     java
+    karabiner-elements
     kindle
     libreoffice
     license-plist
