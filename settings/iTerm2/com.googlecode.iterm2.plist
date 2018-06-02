@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AdjustWindowForFontSizeChange</key>
+	<false/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -120,7 +122,23 @@
 			<string></string>
 		</dict>
 	</dict>
+	<key>HideFromDockAndAppSwitcher</key>
+	<true/>
+	<key>HideMenuBarInFullscreen</key>
+	<false/>
+	<key>HideTab</key>
+	<false/>
+	<key>Hotkey</key>
+	<true/>
+	<key>HotkeyChar</key>
+	<integer>13</integer>
+	<key>HotkeyCode</key>
+	<integer>36</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
+	<key>HotkeyModifiers</key>
+	<integer>270592</integer>
+	<key>HotkeyWindowFloatsAboveOtherWindows</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
@@ -164,10 +182,12 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>1169 110 445 103 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-1483 161 958 451 -1920 -30 1920 1057 </string>
+	<string>-1469 549 796 473 -1920 -30 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-960 -7 956 1034 -1920 -30 1920 1057 </string>
+	<string>-1920 -30 1920 1058 -1920 -30 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -751,6 +771,8 @@
 			<string>Monaco 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
+			<key>Prevent Opening in a Tab</key>
+			<false/>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -758,7 +780,7 @@
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>5000</integer>
 			<key>Selected Text Color</key>
@@ -785,6 +807,8 @@
 			<string></string>
 			<key>Silence Bell</key>
 			<true/>
+			<key>Space</key>
+			<integer>-1</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -792,7 +816,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.29814998413705585</real>
+			<real>0.34913546954314723</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -808,7 +832,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Working Directory</key>
 			<string>/Users/ohmurakosuke</string>
 		</dict>
@@ -825,6 +849,10 @@
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>546526200.10941994</real>
+	<key>OpenArrangementAtStartup</key>
+	<false/>
+	<key>OpenNoWindowsAtStartup</key>
+	<true/>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
 	<key>PointerActions</key>
@@ -875,15 +903,21 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-05-01T04:09:30Z</date>
+	<date>2018-05-31T01:13:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
+	<true/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.40000000000000002</real>
+	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
 	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
+	<key>UseLionStyleFullscreen</key>
+	<false/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
