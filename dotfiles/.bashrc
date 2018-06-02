@@ -2,7 +2,7 @@
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
+export PS1='\[\033[32m\]\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
 
 # Xcode
 alias clean-xcode='rm -r ~/Library/Developer/Xcode/iOS\ DeviceSupport/ && rm -r ~/Library/Developer/Xcode/DerivedData/ && rm -r ~/Library/Developer/Xcode/iOS\ Device\ Logs/'
