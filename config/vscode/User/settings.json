@@ -3,16 +3,17 @@
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
     "extensions.ignoreRecommendations": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "markdown-pdf.margin.bottom": "2cm",
+    "markdown-pdf.margin.bottom": "5cm",
     "markdown-pdf.margin.left": "2cm",
     "markdown-pdf.margin.right": "2cm",
-    "markdown-pdf.margin.top": "4cm",
+    "markdown-pdf.margin.top": "2cm",
     "markdown-pdf.styles": [
         "~/Library/Application Support/Code/User/markdown-pdf.css"
     ],
@@ -26,5 +27,7 @@
     },
     "[go]": {
         "editor.tabSize": 4
-    }
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }

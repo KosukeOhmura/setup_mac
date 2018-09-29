@@ -23,11 +23,4 @@ pyenv rehash
 
 python --version
 
-PIPS=(
-  awscli
-)
-
-for pip in "${PIPS[@]}"
-do
-  pip install $pip
-done
+pip install awscli
